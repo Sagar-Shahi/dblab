@@ -5,3 +5,10 @@ build/
 .idea/
 .vscode/
 .DS_Store
+
+# Secrets and local configuration: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
