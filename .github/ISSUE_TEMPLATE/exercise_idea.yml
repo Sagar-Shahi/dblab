@@ -1,0 +1,16 @@
+name: SQL exercise idea
+description: Suggest a new practice problem for the shop database
+labels: [good first issue, sql]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem, in plain English
+      description: Which SQL skill does it practise (for example HAVING, a window function, a self-join)?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: A solution you have in mind
+      render: sql

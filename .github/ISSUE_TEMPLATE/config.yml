@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the guides first
+    url: https://github.com/Sagar-Shahi/dblab/tree/main/docs
+    about: The DBMS and distributed database guides explain the ideas behind the code.
