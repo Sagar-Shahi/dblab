@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in DBLab did not behave as documented
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [SQL engine, Sharding or replication, Two-phase commit, Java, C++, SQL exercises, Docs]
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Version and system
+      placeholder: "Python 3.12 / Java 17 / g++ 13, macOS"
